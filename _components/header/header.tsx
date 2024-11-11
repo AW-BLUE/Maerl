@@ -11,7 +11,7 @@ export default function Header({ withSession }: { withSession: boolean }) {
         <div className="flex items-center justify-start gap-4">
           <h2 className="font-medium flex items-center justify-start gap-2">
             <Logo width={22} />
-            <Link href="/">Maerl</Link>
+            <Link href="/">Maerl ('Old Maerl' backup version)</Link>
           </h2>
         </div>
 
