@@ -24,7 +24,8 @@ export default async function RootLayout({
       <body className="min-h-screen bg-background text-foreground">
         <Header withSession={session} />
         <main className="w-full max-w-[1376px] mx-auto px-4">
-          {session ? <>{children}</> : <Login />}
+{/*           {session ? <>{children}</> : <Login />} */}
+          {children}
         </main>
         <Footer />
       </body>
